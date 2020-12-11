@@ -1,7 +1,11 @@
 // Your code here
+<<<<<<< HEAD
 
 let arr1=[a,b,c,55];
 let arr2=[x,y,z,44];
+=======
+let arr1=[a,b,c,55];
+>>>>>>> 2f20c8a3477d26f7b4baf1df3454d9f8a9de63c7
 
 function createEmployeeRecord(arr1){
   return {
@@ -13,6 +17,7 @@ function createEmployeeRecord(arr1){
     timeOutEvents : []
   };
 }
+<<<<<<< HEAD
 
 function createEmployeeRecords(employeeRowData) {
     return employeeRowData.map(function(row){
@@ -81,3 +86,5 @@ function calculatePayroll (arrayOfEmployeeRecords){
         return memo + allWagesFor(rec)
     }, 0)
 }
+=======
+>>>>>>> 2f20c8a3477d26f7b4baf1df3454d9f8a9de63c7
